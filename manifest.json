@@ -5,8 +5,8 @@
         "48": "icon48.png",
        "128": "icon128.png" 
     },
-    "version": "0.2",
-    "description": "Checks URL and redirects as required.",
+    "version": "0.3",
+    "description": "This extension will allow you to use existing Facepunch links in search results/old links.",
     "background": { 
        "page":"bg.html"
     },
