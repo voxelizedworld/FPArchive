@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "FP Archive",
+    "version": "0.1",
+
+    "description": "This extension will allow you to use existing Facepunch links in search results/old links.",
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["*://forum.facepunch.com/*"],
+            "js": ["fparchive.js"]
+        }
+    ]
+}
