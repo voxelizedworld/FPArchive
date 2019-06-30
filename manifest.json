@@ -5,7 +5,7 @@
         "48": "icon48.png",
        "128": "icon128.png" 
     },
-    "version": "0.3",
+    "version": "0.4",
     "description": "This extension will allow you to use existing Facepunch links in search results/old links.",
     "background": { 
        "page":"bg.html"
